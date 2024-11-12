@@ -1,0 +1,4 @@
+{
+  "name": "my-monorepo",
+  "packageManager": "yarn@4.2.1"
+}
