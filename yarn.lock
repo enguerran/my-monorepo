@@ -5191,6 +5191,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"front-office@workspace:apps/front-office":
+  version: 0.0.0-use.local
+  resolution: "front-office@workspace:apps/front-office"
+  dependencies:
+    nuxt: "npm:^3.14.159"
+    vue: "npm:latest"
+    vue-router: "npm:latest"
+  languageName: unknown
+  linkType: soft
+
 "fs-extra@npm:^11.1.0, fs-extra@npm:^11.2.0":
   version: 11.2.0
   resolution: "fs-extra@npm:11.2.0"
@@ -7258,16 +7268,6 @@ __metadata:
   checksum: 10c0/60a2760fd86af869342880ff85d07020386e806f8310087a0ae6ba1550be06560ab527774b18e0e5d9a3da52e2cd2345c51e996bb164a9f7b6fb2cdc4727e3f3
   languageName: node
   linkType: hard
-
-"nuxt-app@workspace:apps/front-office":
-  version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:apps/front-office"
-  dependencies:
-    nuxt: "npm:^3.14.159"
-    vue: "npm:latest"
-    vue-router: "npm:latest"
-  languageName: unknown
-  linkType: soft
 
 "nuxt@npm:^3.14.159":
   version: 3.14.159

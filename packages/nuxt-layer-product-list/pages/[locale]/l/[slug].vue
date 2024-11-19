@@ -24,6 +24,13 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const slug = route.params.slug;
 const { data: products } = await useFetch(`/api/products?category=${slug}`);
+
+definePageMeta({
+  validate: (route) => {
+    return route.params.slug === "foo";
+  },
+  name: "product-list",
+});
 </script>
 
 <style scoped>
